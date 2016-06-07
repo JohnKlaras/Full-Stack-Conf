@@ -11,6 +11,46 @@
 
   </head>
   <body>
+
+    <!--navbar  -->
+        <nav class="navbar navbar-dark bg-primary navbar-fixed-top">
+          <div class="container">
+            <ul class="nav navbar-nav ">
+              <li class="nav-item">
+                <a class="nav-link" href="#home">Home <span class="sr-only">(current)</span></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#about">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#speakers">Speakers</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#schedule">Schedule</a>
+              </li>
+            </ul>
+            <a class="navbar-brand pull-sm-right m-r-0 hidden-xs-down" href="http://www.teamtreehouse.com">Presented by Treehouse</a>
+        </div>
+      </nav>
+    <!--/navbar  -->
+
+    <!-- jumbotron -->
+    <div class="jumbotron jumbotron-fluid bg-info">
+      <div class="container text-sm-center p-t-3">
+        <h1 class="display-2">Full Stack Conf</h1>
+        <p class="lead">A one-day conference about all things JavaScript.</p>
+
+        <div class="btn-group m-t-2" role="group" aria-label="Basic example">
+            <button type="button" class="btn btn-primary btn-lg">Register Now</button>
+            <a class="btn btn-secondary btn-lg" href="#speakers">See Speakers</a>
+
+        </div>
+
+      </div>
+   </div>
+    <!-- /jumbotron -->
+
+
       <!-- about  -->
       <div class="container p-t-2">
         <div class="row">
@@ -40,11 +80,15 @@
         </div><!-- about  -->
 
         <!-- speakers -->
-        <h1 class="display-4 text-xs-center m-y-3 text-muted">Speakers</h1>
+        <h1 id = "speakers" class="display-4 text-xs-center m-y-3 text-muted">Speakers</h1>
         [Speaker Bios go here]
         <!-- schedule -->
         <h1 class="display-4 text-xs-center m-y-3 text-muted">Schedule</h1>
         [conference schedule goes here]
+
+        <!--callout button  -->
+        <button type="button" class="btn btn-info-outline btn-lg center-block m-y-3">Don't Miss Out, Register Now</button>
+        <!--  -->
         <!-- signup form -->
         <hr>
         <div class="row p-y-2 text-muted">
